@@ -16,7 +16,10 @@
     "test:watch": "mocha --watch --reporter min tests/**.spec.js",
     "test": "npm-run-all test:coverage lint"
   },
-  "repository": "github:zypA13510/ui5-fontawesome",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cshbicos/ui5-fontawesome.git"
+  },
   "keywords": [
     "ui5",
     "font",
